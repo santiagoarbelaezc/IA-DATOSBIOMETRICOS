@@ -1,0 +1,22 @@
+# Agrega este contenido a tu .gitignore
+@"
+# Modelos entrenados grandes
+best_model.pth
+lenet_overfit_best.pt
+
+# Datasets (si los vuelves a tener)
+UEyes_dataset/
+data/
+dataset_split/
+
+# Archivos temporales
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+"@ | Out-File -FilePath .gitignore -Encoding utf8
